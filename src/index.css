@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+
+}
+
+html{
+  direction: rtl;
+  background:url('../src/assets/bg.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+section{
+  display: flex;
+  align-items: center; 
+}
+
+section .container {
+  width: 650px;
+  background: #332a224e;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px #d7d7d7d7 solid;
+  margin: 15px;
+}
+
+section .top_sec{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid  #d7d7d7d7;
+}
+
+
+section .top_sec select{
+  width: 250px;
+  border-radius: 5px;
+  outline: 0;
+  background: #a54f3a;
+  padding: 2px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+
+
+}
+section .top_sec .date{
+  width: 250px;
+}
+
+section .top_sec h3{
+  font-size: 26px;
+  color: #fff;
+}
+
+section .top_sec .date{
+  width: 250px;
+}
+section .top_sec .date h4{
+  color: #fff;
+  font-size: 24px;
+}
+
